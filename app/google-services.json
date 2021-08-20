@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "800855620469",
+    "project_id": "meteo-53729",
+    "storage_bucket": "meteo-53729.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800855620469:android:496520d8db575aba85313c",
+        "android_client_info": {
+          "package_name": "com.allaoua.meteo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800855620469-pu227ubrtken6ah63i6gslte58eh5brq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtI4cpxM00UBNXz31JquDd6RbegULvRFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800855620469-pu227ubrtken6ah63i6gslte58eh5brq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

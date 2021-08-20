@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/nomVille"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text=""
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?android:selectableItemBackground"/>
+
+    <ImageView
+        android:id="@+id/favorit"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="12dp"
+        android:src="@drawable/ic_star_empty_24"
+        app:layout_constraintBottom_toBottomOf="@+id/nomVille"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/nomVille"
+        android:layout_marginEnd="40dp"
+        android:clickable="true"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
